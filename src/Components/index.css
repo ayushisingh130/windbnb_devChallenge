@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+.main_div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Locations{
+  width: 40%;
+}
+
+.container{
+  margin: 0px 5%;
+}
+.apartment{
+  display: block; 
+  width: 400px;
+  grid-template-columns: 120px 120px 120px; 
+  margin-bottom: 30px;
+}
+
+.apartment_img{
+  height: 240px;
+  width: 380px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
+.main_logo{
+  margin: 1% 0px 0px 3%;
+}
+
+.searchloc{
+  margin-top: 10px;
+  float: right;
+  justify-content: space-around;
+}
+.top_heading{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 26px 0px 25px 2%;
+  color: rgb(92, 88, 88);
+}
+.main_div{
+  justify-content: space-around;
+}
+
+.apartment_rating{
+  float: right;
+  display: flex;
+  margin-right: 16px;
+  margin-top: -8px;
+}
+.rating{
+  font-weight: 600;
+  color: rgb(107, 100, 100);
+}
+
+p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+}
+
+.apartment_title{
+  margin-top: 5px;
+  font-size: 18px;
+  color: rgb(56, 52, 52);
+}
+.apartment_type{
+  color:#a19898;
+  font-size:17px ;
+  font-weight: 500;
+}
+.apartment_details{
+  margin-left: 10px;
+}
+ 
+.Locations {
+  margin-left: 15%;
+  padding-top: 20px;
+  width: 70%;
+  height: 500px;
+}
+
+.destination{
+  margin-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  color: rgb(90, 86, 86);
+  font-size: 30px;
+}
+.modal_top{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.addguest{
+  margin-top: 20px;
+}
+.addheading{
+  padding-left: 20px;
+  color: rgb(36, 33, 33);
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.addsub{
+  margin-top: 10px;
+}
